@@ -1,0 +1,61 @@
+@media only screen and (max-width:500px) {
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:aliceblue;
+}
+
+body > h2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+body > .Login
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding: 35%;
+    padding-top:2%;
+   
+}
+
+body > .Login > p
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+
+body > .Login > input 
+{
+    height: 2rem;
+}
+
+body > .Login > button
+{
+    height: 2rem;
+    color: rgb(244, 244, 251);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:cadetblue;
+}
